@@ -32,3 +32,7 @@ PVector subVector(PVector a, PVector b) {
     PVector _tmp = new PVector(a.x-b.x,a.y-b.y);
     return _tmp;
 }
+
+float vecArea(PVector a) {
+    return a.x*a.y;
+}

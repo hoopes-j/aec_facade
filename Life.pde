@@ -42,8 +42,6 @@ class Life {
 
     void draw() {
 
-
-
         if (ballF.x == ballM.x && ballF.y == ballM.y && ballsMorphing) {
             ballsMorphing = false;
             color mixedColor = this.ballM.c + this.ballF.c;

@@ -31,7 +31,7 @@ void setup() {
   PVector origin = new PVector(30, 2);
   PVector spacing = new PVector(1,1);
   window = new Window(spacing,2, size, origin);
-
+        
   size = new PVector(5, 5);
   origin = new PVector(20, 2);
   spacing = new PVector(1,1);
@@ -74,9 +74,10 @@ void draw() {
   }
 
 
-  // life.draw();
   facade.animate();
   facade.draw();
+
+  // life.draw();
 
   noFill();
   rect(10,10,1,1);
