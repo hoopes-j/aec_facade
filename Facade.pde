@@ -142,6 +142,7 @@ class Hole {
 
     void move(PVector _newSize) {
         this.size = _newSize;
+        // yo whatup
     }
 
     // void expand(pos ) {
