@@ -78,13 +78,8 @@ void draw() {
   facade.animate();
   facade.draw();
 
-
   noFill();
   rect(10,10,1,1);
-
-
-
-
 
 
   // window._fill(255,0,0);
